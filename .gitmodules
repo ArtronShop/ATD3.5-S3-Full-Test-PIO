@@ -1,0 +1,3 @@
+[submodule "lib/ATD3.5-S3_Library"]
+	path = lib/ATD3.5-S3_Library
+	url = https://github.com/ArtronShop/ATD3.5-S3_Library.git
