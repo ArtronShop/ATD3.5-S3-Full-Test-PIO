@@ -101,6 +101,11 @@ void setup() {
     beep();
   }, LV_EVENT_CLICKED, NULL);
 
+  for (int i=0;i<3;i++) {
+    beep();
+    delay(300);
+  }
+
   // I2C
   lv_obj_add_event_cb(ui_scan_i2c_btn, [](lv_event_t * e) {
     String log = "";
